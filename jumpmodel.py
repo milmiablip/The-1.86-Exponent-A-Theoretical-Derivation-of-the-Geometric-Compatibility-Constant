@@ -1,39 +1,51 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Константы Марины
+# Marina's Fundamental Constants
 PHI = (1 + 5**0.5) / 2
 GOLDEN_NODE_X = 1 / PHI
 THRESHOLD_5_6 = 5 / 6
-N_IDEAL = 1.8617  # Твоя выведенная константа
+N_IDEAL = 1.8617  # Your derived "Safe-Stitch" exponent
 
 def f(x, n):
     return 1 - (1 - x)**n
 
 x = np.linspace(0, 1, 500)
 n_values = [1.2, N_IDEAL, 3.0]
-labels = ['n = 1.2 (Недостаточно)', f'n = {N_IDEAL} (ЗОЛОТОЙ ПРЫЖОК)', 'n = 3.0 (Коллапс)']
+labels = [
+    'n = 1.2 (Insufficient)', 
+    f'n = {N_IDEAL} (GOLDEN JUMP)', 
+    'n = 3.0 (Metric Collapse)'
+]
 colors = ['gray', 'gold', 'red']
 
-plt.figure(figsize=(10, 6))
+plt.figure(figsize=(12, 7))
 
 for n, label, color in zip(n_values, labels, colors):
     y = f(x, n)
     lw = 3 if n == N_IDEAL else 1.5
     plt.plot(x, y, label=label, color=color, linewidth=lw)
 
-# Линии ограничений
-plt.axvline(GOLDEN_NODE_X, color='green', linestyle='--', alpha=0.6, label='Золотой Узел (1/Φ)')
-plt.axhline(THRESHOLD_5_6, color='blue', linestyle=':', alpha=0.6, label='Порог Прыжка (5/6)')
+# Boundary and Anchor Lines
+plt.axvline(GOLDEN_NODE_X, color='green', linestyle='--', alpha=0.6, label='Golden Node (1/Φ)')
+plt.axhline(THRESHOLD_5_6, color='blue', linestyle=':', alpha=0.6, label='Jump Threshold (5/6)')
 
-# Точка перехода
+# Transition Point (The Sync Point)
 plt.scatter([GOLDEN_NODE_X], [f(GOLDEN_NODE_X, N_IDEAL)], color='black', zorder=5)
-plt.annotate('ТОЧКА СИНХРОНИЗАЦИИ', xy=(GOLDEN_NODE_X, f(GOLDEN_NODE_X, N_IDEAL)), 
-             xytext=(0.1, 0.9), arrowprops=dict(facecolor='black', shrink=0.05))
+plt.annotate('SYNCHRONIZATION POINT', 
+             xy=(GOLDEN_NODE_X, f(GOLDEN_NODE_X, N_IDEAL)), 
+             xytext=(0.05, 0.9), 
+             fontsize=10,
+             fontweight='bold',
+             arrowprops=dict(facecolor='black', shrink=0.05))
 
-plt.title("Моделирование межпространственного перехода (Экспонента 1.86)")
-plt.xlabel("Прогресс деформации (x)")
-plt.ylabel("Плотность метрики (p)")
-plt.legend()
+# Graph Styling
+plt.title("Spacetime Transition Simulation (Exponent n = 1.86)", fontsize=14)
+plt.xlabel("Deformation Progress (x)", fontsize=12)
+plt.ylabel("Metric Density (p)", fontsize=12)
+plt.legend(loc='lower right')
 plt.grid(True, alpha=0.3)
+
+# Save the plot for GitHub
+plt.savefig('Figure_2.png', dpi=300)
 plt.show()

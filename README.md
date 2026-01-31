@@ -9,8 +9,6 @@ This repository presents a formal mathematical framework for a characteristic po
 The model investigates a one-parameter family of scale-invariant functions:
 $$f_n(x) = 1 - (1 - x)^n, \quad x \in [0, 1]$$
 
-## Theoretical Framework
-
 ### The Golden Ratio as a Geometric Anchor
 
 The Golden Ratio ($\Phi \approx 1.618$) does not directly define the value of the acceleration exponent in this model. Instead, it plays the role of a **geometric anchor**: a scale-invariant internal point that the system is required to pass through.

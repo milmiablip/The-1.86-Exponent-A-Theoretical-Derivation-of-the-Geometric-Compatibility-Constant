@@ -1,0 +1,1 @@
+# The-1.86-Exponent-A-Theoretical-Derivation-of-the-Geometric-Compatibility-Constant

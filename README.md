@@ -61,6 +61,12 @@ In differential geometry, transitions between distinct metric configurations req
 
 Within this interpretation, the acceleration profile acts as a control function regulating the rate at which geometric curvature is redistributed across the manifold.
 
+### Transition Visualization
+Below is the numerical simulation of the interdimensional jump. The Golden Exponent ($n \approx 1.86$) is the only trajectory that synchronizes the **Golden Node** with the **5/6 Saturation Threshold**.
+
+![Interdimensional Jump Model](transition_plot.png)
+
+*Figure: Comparison of transition trajectories. The yellow line represents the stable "Safe-Stitch" path.*
 #### 2. The "Safe-Stitch" Hypothesis (Heuristic)
 We introduce the term *Safe-Stitch coefficient* for the role played by the exponent $n$ in maintaining structural coherence during nonlinear deformation:
 - **$n < 1.86$**: The system fails to reach the saturation threshold, leading to incomplete geometric transition.

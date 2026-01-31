@@ -64,7 +64,7 @@ Within this interpretation, the acceleration profile acts as a control function 
 ### Transition Visualization
 Below is the numerical simulation of the interdimensional jump. The Golden Exponent ($n \approx 1.86$) is the only trajectory that synchronizes the **Golden Node** with the **5/6 Saturation Threshold**.
 
-![Interdimensional Jump Model](transition_plot.png)
+![Interdimensional Jump Model](Figure_2.png)
 
 *Figure: Comparison of transition trajectories. The yellow line represents the stable "Safe-Stitch" path.*
 #### 2. The "Safe-Stitch" Hypothesis (Heuristic)

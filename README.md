@@ -27,6 +27,8 @@ $$\mathcal{C}(n) = \int_0^1 [f_n''(x)]^2 dx = \frac{n^2(n-1)^2}{2n-3}$$
 
 Numerical simulations (see `simulation.py`) demonstrate that $n \approx 1.86$ resides at the global minimum of this functional for the given constraints, ensuring maximum structural efficiency and minimized energy expenditure during growth.
 
+![Results and Optimization](Figure_1.png)
+
 ## Repository Contents
 * `paper.pdf`: Full theoretical manuscript with detailed proofs and analysis.
 * `simulation.py`: Python script for numerical verification and visualization.

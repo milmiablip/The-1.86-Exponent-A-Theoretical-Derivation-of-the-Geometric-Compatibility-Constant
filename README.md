@@ -28,6 +28,8 @@ $$\mathcal{C}(n) = \int_0^1 [f_n''(x)]^2 dx = \frac{n^2(n-1)^2}{2n-3}$$
 Numerical simulations (see `simulation.py`) demonstrate that $n \approx 1.86$ resides at the global minimum of this functional for the given constraints, ensuring maximum structural efficiency and minimized energy expenditure during growth.
 
 ![Results and Optimization](Figure_1.png)
+> **Figure 1: Numerical Verification.** > *Left:* The acceleration profile $f_n(x)$ exactly intersecting the Golden Node $(\Phi^{-1}, 5/6)$. 
+> *Right:* The Curvature Cost Functional $\mathcal{C}(n)$ reaches its global minimum at $n \approx 1.86$, indicating that the derived exponent represents a state of peak structural efficiency and minimal energetic stress.
 
 ## Repository Contents
 * `paper.pdf`: Full theoretical manuscript with detailed proofs and analysis.

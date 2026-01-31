@@ -2,12 +2,11 @@
 # # The 1.86 Exponent: A Theoretical Derivation of the Geometric Compatibility Constant
 Status: Pre-print / Theoretical Proposal. Open for experimental verification.
 
-## Overview
-This repository presents a formal mathematical framework for a characteristic power-law exponent, $n \approx 1.8617$. This study explores the transition between static self-similar hierarchies and dynamic growth profiles. We propose that this value serves as a **geometric compatibility constant** that emerges when spatial symmetry (defined by the Golden Ratio) meets the structural saturation limits of a physical manifold.
+## Abstract
+
+This research presents a theoretical derivation of the **1.86 acceleration exponent**, identified as a dynamic compatibility constant in nonlinear growth systems. By introducing the concept of a **"Golden Node"**, we demonstrate that the exponent is not an arbitrary parameter but an emergent property of the system's geometry and saturation constraints.
 
 ## Theoretical Framework
-The model investigates a one-parameter family of scale-invariant functions:
-$$f_n(x) = 1 - (1 - x)^n, \quad x \in [0, 1]$$
 
 ### The Golden Ratio as a Geometric Anchor
 

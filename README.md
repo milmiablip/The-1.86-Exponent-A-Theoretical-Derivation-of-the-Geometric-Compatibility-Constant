@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18440874.svg)](https://doi.org/10.5281/zenodo.18440874)
 # # The 1.86 Exponent: A Theoretical Derivation of the Geometric Compatibility Constant
 Status: Pre-print / Theoretical Proposal. Open for experimental verification.
 

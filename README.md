@@ -32,12 +32,14 @@ Numerical simulations (see `simulation.py`) demonstrate that $n \approx 1.86$ re
 * `simulation.py`: Python script for numerical verification and visualization.
 * `Figure_1.png`: Visual representation of the profile and optimization results.
 
+
+## Citation
+If you use this model or the 1.86 exponent in your research, please cite it as follows:
+Marina Gulyaeva, (2026). "The 1.86 Exponent: A Theoretical Derivation of the Geometric Compatibility Constant." https://github.com/milmiablip/The-1.86-Exponent-A-Theoretical-Derivation-of-the-Geometric-Compatibility-Constant
+
 ## Getting Started
 ### Dependencies
 To run the simulation, you need Python 3.x with the following libraries:
 ```bash
 pip install numpy matplotlib
-
-# Citation
-If you use this model or the 1.86 exponent in your research, please cite it as follows:
-Marina Gulyaeva, (2026). "The 1.86 Exponent: A Theoretical Derivation of the Geometric Compatibility Constant." 
+python simulation.py

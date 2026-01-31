@@ -9,7 +9,9 @@ This repository presents a formal mathematical framework for a characteristic po
 The model investigates a one-parameter family of scale-invariant functions:
 $$f_n(x) = 1 - (1 - x)^n, \quad x \in [0, 1]$$
 
-## The Golden Ratio as a Geometric Anchor
+## Theoretical Framework
+
+### The Golden Ratio as a Geometric Anchor
 
 The Golden Ratio ($\Phi \approx 1.618$) does not directly define the value of the acceleration exponent in this model. Instead, it plays the role of a **geometric anchor**: a scale-invariant internal point that the system is required to pass through.
 
@@ -18,9 +20,10 @@ Under the simultaneous constraints of:
 2. **Finite saturation** ($p_0$)
 3. **Traversal of the Golden Node** ($x_g = 1/\Phi$)
 
-The exponent $n$ becomes overdetermined and converges to a stable value **$n \approx 1.86$**.
+the exponent $n$ becomes **dynamically overdetermined** and, as a consequence, converges to a stable value **$n \approx 1.86$**.
 
-> **Observation:** Numerically, the resulting exponent $n \approx 1.86$ lies close to several simple combinations involving the Golden Ratio. At present, we treat this proximity as an empirical observation rather than a derived identity, leaving room for future theoretical exploration.
+> **Observation.**
+> Numerically, the resulting exponent $n \approx 1.86$ lies close to several simple combinations involving the Golden Ratio. At present, we treat this proximity as an empirical observation rather than a derived identity, leaving room for future theoretical exploration.
 
 ### The Constraints
 The unique value of $n$ is derived from two first-principle geometric requirements:

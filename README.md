@@ -3,13 +3,17 @@
 Status: Pre-print / Theoretical Proposal. Open for experimental verification.
 
 ## Abstract
-
-This research presents a theoretical derivation of the **1.86 acceleration exponent**, identified as a dynamic compatibility constant in nonlinear growth systems. By introducing the concept of a **"Golden Node"**, we demonstrate that the exponent is not an arbitrary parameter but an emergent property of the system's geometry and saturation constraints.
+This repository presents a formal mathematical framework for a characteristic power-law exponent, $n \approx 1.8617$. By introducing the concept of a **"Golden Node"**, we demonstrate that this exponent is not an arbitrary parameter, but an emergent property that arises when spatial symmetry (defined by the Golden Ratio) meets the structural saturation limits of a physical manifold.
 
 ## Theoretical Framework
 
-### The Golden Ratio as a Geometric Anchor
+### The Mathematical Model
+The model investigates a one-parameter family of scale-invariant functions representing the transition between static hierarchies and dynamic growth:
 
+$$f_n(x) = 1 - (1 - x)^n, \quad x \in [0, 1]$$
+
+
+### The Golden Ratio as a Geometric Anchor
 The Golden Ratio ($\Phi \approx 1.618$) does not directly define the value of the acceleration exponent in this model. Instead, it plays the role of a **geometric anchor**: a scale-invariant internal point that the system is required to pass through.
 
 Under the simultaneous constraints of:
@@ -17,7 +21,7 @@ Under the simultaneous constraints of:
 2. **Finite saturation** ($p_0$)
 3. **Traversal of the Golden Node** ($x_g = 1/\Phi$)
 
-the exponent $n$ becomes **dynamically overdetermined** and, as a consequence, converges to a stable value **$n \approx 1.86$**.
+The exponent $n$ becomes **dynamically overdetermined** and, as a consequence, converges to a stable value **$n \approx 1.86$**.
 
 > **Observation.**
 > Numerically, the resulting exponent $n \approx 1.86$ lies close to several simple combinations involving the Golden Ratio. At present, we treat this proximity as an empirical observation rather than a derived identity, leaving room for future theoretical exploration.
